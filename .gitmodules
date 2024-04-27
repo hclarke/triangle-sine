@@ -1,0 +1,15 @@
+[submodule "cosmo-env"]
+	path = cosmo-env
+	url = https://github.com/hclarke/cosmo-env.git
+[submodule "cosmopolitan-sdl2"]
+	path = cosmopolitan-sdl2
+	url = https://github.com/z-erica/cosmopolitan-sdl2.git
+[submodule "third_party/SDL"]
+	path = third_party/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "third_party/OpenGL-Registry"]
+	path = third_party/OpenGL-Registry
+	url = https://github.com/KhronosGroup/OpenGL-Registry.git
+[submodule "third_party/EGL-Registry"]
+	path = third_party/EGL-Registry
+	url = https://github.com/KhronosGroup/EGL-Registry.git
