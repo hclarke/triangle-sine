@@ -32,7 +32,7 @@ o/gl_dynapi.o: CFLAGS += -Ithird_party/SDL/include
 o/gl_dynapi.o: CFLAGS += $(GL_INCLUDES)
 o/gl_dynapi.o: o/gl/glcorearb.procs.h
 
-o/gl/%.noinc.h: third_party/OpenGL-Registry/api/gl/%.h
+o/gl/%.noinc.h: third_party/OpenGL-Registry/api/GL/%.h
 	@mkdir -p $(dir $@)
 	grep -v "^#include" $< > $@.tmp
 	@mv $@.tmp $@
